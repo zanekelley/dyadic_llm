@@ -8,6 +8,14 @@ OpenAI chat model to produce structured attribute predictions (e.g., gender) for
 each conversational turn. Model outputs are then parsed into class-level log 
 probabilities and normalized confidence scores before being written to a CSV file.
 
+run_method() takes five arguments:
+- method = three options listed in depth in ii_transcript_structure.py
+- input = transcript file in inputs folder created by i_transcript_combiner.py
+- model = OpenAI model to be used
+- structured_question_type = the question to be asked the LLM. Set in iii_llm_decider.py
+    - only set up for gender presently
+- output_path = where the csv file will end up
+
 Key features:
 - End-to-end orchestration of transcript processing, LLM inference, and parsing
 - Supports multiple transcript-structuring methods via `transcript_method`
