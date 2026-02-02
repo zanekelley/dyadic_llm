@@ -1,3 +1,24 @@
+"""
+This script serves as the main execution pipeline for structured LLM inference
+over conversational transcript data.
+
+It loads processed transcript data from transcript_combiner, applies a specified 
+transcript-structuring method, iterates over dyads and speakers, and queries an 
+OpenAI chat model to produce structured attribute predictions (e.g., gender) for 
+each conversational turn. Model outputs are then parsed into class-level log 
+probabilities and normalized confidence scores before being written to a CSV file.
+
+Key features:
+- End-to-end orchestration of transcript processing, LLM inference, and parsing
+- Supports multiple transcript-structuring methods via `transcript_method`
+- Runs structured, schema-constrained LLM queries per speaker and dyad
+- Aggregates results across turns and speakers into a tidy output format
+- Centralized configuration of model, question type, and file paths
+
+This script is intended to be the primary point for running batch LLM
+experiments on dyadic conversational data.
+"""
+
 import os
 import pandas as pd
 from openai import OpenAI

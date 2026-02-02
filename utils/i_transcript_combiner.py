@@ -4,7 +4,6 @@
 This script takes a folder of dyadic transcripts in CSV format (can be easily tweaked for XLSX) and combines them into a single CSV file.
 Dyad number MUST be in the name of the file, and the files must have a Speaker column (who spoke the words) and Text column (the actual words spoken).
 Rename your input columns to these names for easier use with the LLM process.
-
 """
 
 import pandas as pd

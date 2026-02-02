@@ -1,3 +1,23 @@
+"""
+<llm_parser> This script provides utilities for parsing, normalizing, and exporting
+log-probability outputs from structured LLM decisions.
+
+It converts token-level log probabilities returned by an OpenAI chat model
+into interpretable class-level probabilities, handling JSON-schema–constrained
+outputs and common tokenization artifacts (e.g., quoted or split tokens).
+The primary function, `parse_llm_decision`, extracts the predicted class,
+aggregates log probabilities for competing classes, and normalizes them
+via a softmax transformation.
+
+Key features:
+- Aggregates token-level log probabilities into class-level scores
+- Robust to JSON schema tokenization (e.g., `"male"`, `male"`)
+- Computes normalized probabilities from log probabilities
+- Supports extensible structured question types (currently gender)
+- Flattens parsed results into a tidy tabular format for analysis
+- Exports results to CSV for downstream statistical workflows
+"""
+
 import math
 import pandas as pd
 

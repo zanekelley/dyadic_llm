@@ -1,8 +1,9 @@
 """
-<transcript_structurer>: Takes a CSV as formatted by transcript_combiner, and structures it to be used with the LLM in one of three ways
+<transcript_structurer>: This script takes a CSV as formatted by transcript_combiner, and structures it 
+to be used with the LLM in one of three ways.
 
-This function works inside of the main script. This functions looks within a dyad and structures a dataframe 
-to give the LLM dialogue from both members of the dyad, only ony member of the dyad, or a single line from the dyad.
+This functions looks within a dyad and structures a dataframe to give the LLM dialogue from both members of the dyad, 
+only ony member of the dyad, or a single line from the dyad.
 
 Examples of the output by dyad are shown below:
 
