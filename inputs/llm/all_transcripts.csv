@@ -1,0 +1,31 @@
+ID,dyad,speaker,turn,transcript
+FakeConvesation_Dyad01_Example,1,A,1,"A: Hey, did you finish reading that article I sent you yesterday?"
+FakeConvesation_Dyad01_Example,1,B,2,"B: Yeah, I read it this morning. It was more interesting than I expected."
+FakeConvesation_Dyad01_Example,1,A,3,A: Same here—I didn’t think the results would be that strong.
+FakeConvesation_Dyad01_Example,1,B,4,B: Especially the part about how small changes had such a big effect.
+FakeConvesation_Dyad01_Example,1,A,5,A: Right? It makes me rethink how we designed our own study.
+FakeConvesation_Dyad01_Example,1,B,6,B: I was thinking the same thing. We might need an extra control condition.
+FakeConvesation_Dyad01_Example,1,A,7,"A: That would mean more participants, though. Do we have the budget for that?"
+FakeConvesation_Dyad01_Example,1,B,8,"B: Probably not, but we could shorten the sessions to compensate."
+FakeConvesation_Dyad01_Example,1,A,9,A: That’s a good idea. It might even reduce participant fatigue.
+FakeConvesation_Dyad01_Example,1,B,10,B: Agreed. Let’s bring it up at the meeting tomorrow.
+FakeConvesation_Dyad02_Example,2,A,1,A: Are you sure the server was backed up before the update last night?
+FakeConvesation_Dyad02_Example,2,B,2,"B: I thought it was, but now I’m not seeing yesterday’s logs."
+FakeConvesation_Dyad02_Example,2,A,3,A: That’s worrying. Did the update overwrite the config files?
+FakeConvesation_Dyad02_Example,2,B,4,B: It might have. I didn’t realize the script was pointing to the old directory.
+FakeConvesation_Dyad02_Example,2,A,5,"A: Okay, let’s slow down and retrace what ran and in what order."
+FakeConvesation_Dyad02_Example,2,B,6,B: Good idea. I’ll pull the deployment history and check the timestamps.
+FakeConvesation_Dyad02_Example,2,A,7,"A: If the logs are gone, do we have anything in the cloud archive?"
+FakeConvesation_Dyad02_Example,2,B,8,"B: Possibly, but it only snapshots once every 24 hours."
+FakeConvesation_Dyad02_Example,2,A,9,A: That might still save us if the timing lines up.
+FakeConvesation_Dyad02_Example,2,B,10,B: Fingers crossed—otherwise we’re rebuilding from scratch.
+FakeConvesation_Dyad03_Example,3,A,1,A: Did you hear the noise coming from the lab this morning?
+FakeConvesation_Dyad03_Example,3,B,2,"B: Yeah, I thought one of the machines was malfunctioning."
+FakeConvesation_Dyad03_Example,3,A,3,"A: I checked the logs, but everything looked normal."
+FakeConvesation_Dyad03_Example,3,B,4,B: That’s strange—maybe it was just the ventilation kicking on.
+FakeConvesation_Dyad03_Example,3,A,5,"A: Could be, although it sounded louder than usual."
+FakeConvesation_Dyad03_Example,3,B,6,B: We should probably mention it to facilities just in case.
+FakeConvesation_Dyad03_Example,3,A,7,A: Agreed. Better to be cautious than ignore a warning sign.
+FakeConvesation_Dyad03_Example,3,B,8,B: I’ll send them a message after lunch.
+FakeConvesation_Dyad03_Example,3,A,9,A: Let me know if they want more details from us.
+FakeConvesation_Dyad03_Example,3,B,10,B: Will do. Hopefully it’s nothing serious.

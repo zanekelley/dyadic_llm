@@ -1,0 +1,11 @@
+Speaker,Text
+A,Are you sure the server was backed up before the update last night?
+B,"I thought it was, but now I’m not seeing yesterday’s logs."
+A,That’s worrying. Did the update overwrite the config files?
+B,It might have. I didn’t realize the script was pointing to the old directory.
+A,"Okay, let’s slow down and retrace what ran and in what order."
+B,Good idea. I’ll pull the deployment history and check the timestamps.
+A,"If the logs are gone, do we have anything in the cloud archive?"
+B,"Possibly, but it only snapshots once every 24 hours."
+A,That might still save us if the timing lines up.
+B,Fingers crossed—otherwise we’re rebuilding from scratch.

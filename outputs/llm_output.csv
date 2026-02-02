@@ -1,0 +1,61 @@
+dyad_id,speaker,text,predicted_value,predicted_logprob,female_logprob,male_logprob,female_pct,male_pct
+1,A,"A: Hey, did you finish reading that article I sent you yesterday?
+B: Yeah, I read it this morning. It was more interesting than I expected.
+A: Same here—I didn’t think the results would be that strong.
+B: Especially the part about how small changes had such a big effect.
+A: Right? It makes me rethink how we designed our own study.
+B: I was thinking the same thing. We might need an extra control condition.
+A: That would mean more participants, though. Do we have the budget for that?
+B: Probably not, but we could shorten the sessions to compensate.
+A: That’s a good idea. It might even reduce participant fatigue.
+B: Agreed. Let’s bring it up at the meeting tomorrow.",male,-0.3132616877555847,-1.3132617473602295,-0.3132616877555847,0.2689414096510108,0.7310585903489892
+1,B,"A: Hey, did you finish reading that article I sent you yesterday?
+B: Yeah, I read it this morning. It was more interesting than I expected.
+A: Same here—I didn’t think the results would be that strong.
+B: Especially the part about how small changes had such a big effect.
+A: Right? It makes me rethink how we designed our own study.
+B: I was thinking the same thing. We might need an extra control condition.
+A: That would mean more participants, though. Do we have the budget for that?
+B: Probably not, but we could shorten the sessions to compensate.
+A: That’s a good idea. It might even reduce participant fatigue.
+B: Agreed. Let’s bring it up at the meeting tomorrow.",male,-0.4740770161151886,-0.9740769863128662,-0.4740770161151886,0.37754067580180184,0.622459324198198
+2,A,"A: Are you sure the server was backed up before the update last night?
+B: I thought it was, but now I’m not seeing yesterday’s logs.
+A: That’s worrying. Did the update overwrite the config files?
+B: It might have. I didn’t realize the script was pointing to the old directory.
+A: Okay, let’s slow down and retrace what ran and in what order.
+B: Good idea. I’ll pull the deployment history and check the timestamps.
+A: If the logs are gone, do we have anything in the cloud archive?
+B: Possibly, but it only snapshots once every 24 hours.
+A: That might still save us if the timing lines up.
+B: Fingers crossed—otherwise we’re rebuilding from scratch.",female,-0.5231233239173889,-0.5231233239173889,-0.8981233239173889,0.5926665999540697,0.4073334000459302
+2,B,"A: Are you sure the server was backed up before the update last night?
+B: I thought it was, but now I’m not seeing yesterday’s logs.
+A: That’s worrying. Did the update overwrite the config files?
+B: It might have. I didn’t realize the script was pointing to the old directory.
+A: Okay, let’s slow down and retrace what ran and in what order.
+B: Good idea. I’ll pull the deployment history and check the timestamps.
+A: If the logs are gone, do we have anything in the cloud archive?
+B: Possibly, but it only snapshots once every 24 hours.
+A: That might still save us if the timing lines up.
+B: Fingers crossed—otherwise we’re rebuilding from scratch.",male,-0.16022412478923798,-1.9102240800857544,-0.16022412478923798,0.1480472036701053,0.8519527963298947
+3,A,"A: Did you hear the noise coming from the lab this morning?
+B: Yeah, I thought one of the machines was malfunctioning.
+A: I checked the logs, but everything looked normal.
+B: That’s strange—maybe it was just the ventilation kicking on.
+A: Could be, although it sounded louder than usual.
+B: We should probably mention it to facilities just in case.
+A: Agreed. Better to be cautious than ignore a warning sign.
+B: I’ll send them a message after lunch.
+A: Let me know if they want more details from us.
+B: Will do. Hopefully it’s nothing serious.",female,-0.575939416885376,-0.575939416885376,-0.825939416885376,0.5621765008857981,0.4378234991142019
+3,B,"A: Did you hear the noise coming from the lab this morning?
+B: Yeah, I thought one of the machines was malfunctioning.
+A: I checked the logs, but everything looked normal.
+B: That’s strange—maybe it was just the ventilation kicking on.
+A: Could be, although it sounded louder than usual.
+B: We should probably mention it to facilities just in case.
+A: Agreed. Better to be cautious than ignore a warning sign.
+B: I’ll send them a message after lunch.
+A: Let me know if they want more details from us.
+B: Will do. Hopefully it’s nothing serious.",male,-0.25192907452583313,-1.5019290447235107,-0.25192907452583313,0.22270014398423357,0.7772998560157665
